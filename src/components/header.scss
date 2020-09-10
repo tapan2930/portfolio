@@ -26,28 +26,30 @@
 
 @media only screen and (max-width: 700px) {
   .navbar {
-      background-color: #383b37;
+      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.123);
+      background-color: white;
       flex-direction: column;
+      overflow: hidden;
+      height: 48px;
 
     .header {
       display: flex;
       margin-left: 5px;
       
     .logo{
-        background-color: white;
         padding:0px 2px;
         border-radius: 10px;
-        margin: 5px 0;
+        margin: 5px 5px;
     }
 
       .nav-toggle {
-        margin-right: 5px;  
+        font-size: 1.2rem;
+        margin-right: 10px;  
         display: initial;
         margin-left: auto;
         align-self: center;
         cursor: pointer;
-        color: white;
-        transition: 0.4s;
+        transition: 0.2s;
       }
     }
 
@@ -55,31 +57,34 @@
         
         align-self: initial;
         margin-left: 0;
-        border-top: 0.5px solid rgb(8, 8, 8);
+        align-self: center;
+       
        
 
         .navlinks{
-
-            opacity: 0;
-            height: 0;
+            text-align: center;
+            padding: 10px 5px;
             margin-left: 0px;
             display:block;
             flex-direction: column;
             width: 100%;
-            color: white;
+            color: #101113;
+            font-weight: 300;
+            font-size: 1.4rem;
+            align-self: center;
             transition: 0.2s;
+            cursor: pointer;
 
             &:hover{
-                background-color:#101113 ;
+                color:#6c87fc ;
             }
-        }
-        .active{
-            border-bottom: 0.5px solid rgb(8, 8, 8);
-            padding: 10px 5px;
-            transition: 0.2s;
-            opacity: 1;
-            height: initial;
         }
       }
   }
+
+  .active{           
+    transition: 0.2s;
+    height: 100vh;
+    position: fixed;
+}
 }

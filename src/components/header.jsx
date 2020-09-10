@@ -32,9 +32,10 @@ const Header = () =>{
 function classToggle(){
 
     
-    let navs = document.querySelectorAll('.navlinks');
+    let navs = document.querySelector('.navbar');
     console.log(navs)
-    navs.forEach(nav => nav.classList.toggle('active'));
+    navs.classList.toggle('active')
+    // navs.forEach(nav => nav.classList.toggle('active'));
 
   }
   
