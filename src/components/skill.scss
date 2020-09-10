@@ -1,0 +1,25 @@
+.skills{
+    .skill-meter{
+        display: inline-block;
+
+        margin-left: 15px;
+        border-radius: 10px;
+        width: 5px;
+        background: linear-gradient(0deg, rgba(255,70,197,1) 0%, rgba(67,96,242,1) 100%);
+    }
+
+    .skill-label{
+        display: inline-block;
+        ul{
+            list-style-type: none;
+            margin-left: -25px;
+            
+
+            li{
+                margin-bottom: 5px;
+                font-weight: 100;
+                color: #2d2f34; 
+            }
+        }
+    }
+}

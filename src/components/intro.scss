@@ -1,0 +1,52 @@
+.hero{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    .left{
+        width: 50%;
+        display: inline-block;
+        height: 100%;
+        background-color: #edf0ff;
+    }
+
+    .headlines{
+        position: absolute;
+        width: 100%;
+        top: 35%;
+        text-align: center;
+    
+        .greetings{
+            color:#4262f2;
+            font-weight: 900;
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+    
+        .headName{
+            font-size:3.5rem;
+            font-weight: 900;
+            margin-bottom: 40px;
+        }
+    
+        .tagLine{
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: #4262f2;
+            margin-bottom: 40px;
+
+            .highlight{
+                color: white;
+                background-color: #2d2f34;
+                border-radius: 3px;
+                padding: 0 4px 2px 4px;
+            }
+        }
+    }
+    
+}
+
+
+
+
+

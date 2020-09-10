@@ -1,0 +1,57 @@
+.mainSection{
+    margin: 50px 5%;
+    overflow-x: hidden;
+    display: flex;
+    
+    .menuListContainer{
+        background: white;
+        border:1px solid black;
+        width: 30%;
+
+
+        .menuList{
+            text-align: right;
+            height: 230px;
+            overflow: hidden;
+
+            li{ 
+                margin-bottom: 10px;
+                list-style-type: none;
+                overflow: hidden;
+
+
+                a{
+                    text-decoration: none;
+                    color: #2d2f34;
+                    font-weight: 600;
+                    transition: 0.2s;
+                    overflow: hidden;
+
+                    &:hover{
+                        font-size: 1.2rem;
+                        color: #4360f2;
+                        
+                    }
+                }
+            }
+        }
+    }
+
+    .InfoContainer{
+        background-color: #edf0ff;
+        margin-left: 5%;
+        width: 65%;
+
+        .mainSection-heading{
+            color: #4360f2;
+            font-size: 2rem;
+            font-weight: 800;
+            margin: 0px 10px;
+        }
+        .mainSection-subHeading{
+            color:#2d2f34;
+            font-weight: 300;
+            margin: 0px 10px 5px 10px;
+        }
+    }
+}
