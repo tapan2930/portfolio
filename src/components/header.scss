@@ -1,5 +1,8 @@
 .navbar {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.123);
+    background-color: white;
   position: absolute;
+  height: 76px;
   z-index: 10;
   width: 100%;
   display: flex;
@@ -7,7 +10,9 @@
   .header {
     display: flex;
     margin-left: 10px;
-
+    .logo{
+        align-self: center;
+    }
     .nav-toggle {
       align-self: center;
       display: none;
@@ -20,14 +25,20 @@
     .navlinks{
         margin-right: 10px;
         margin-left: 10px;
+        cursor: pointer;
+        transition: 0.2s;
+        font-size: 1.2rem;
+        font-weight: 300;
+        
+        &:hover{
+            color:#6c87fc ;
+        }
     }
   }
 }
 
 @media only screen and (max-width: 700px) {
   .navbar {
-      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.123);
-      background-color: white;
       flex-direction: column;
       overflow: hidden;
       height: 48px;
@@ -48,8 +59,8 @@
         display: initial;
         margin-left: auto;
         align-self: center;
-        cursor: pointer;
-        transition: 0.2s;
+
+      
       }
     }
 
@@ -73,11 +84,8 @@
             font-size: 1.4rem;
             align-self: center;
             transition: 0.2s;
-            cursor: pointer;
 
-            &:hover{
-                color:#6c87fc ;
-            }
+            
         }
       }
   }
