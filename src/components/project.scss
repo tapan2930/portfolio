@@ -1,3 +1,35 @@
 .project{
-    background-attachment: fixed;
+
+    .project-card{
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.274) , -1px 0px 6px rgba(255, 255, 255, 0.801) ;
+        width: 90%;
+        margin: 10px auto;
+        background-color: #edf0ff;
+        border-radius: 10px;
+        transition: 0.2s;
+        overflow: hidden;
+
+        .project-img-container{
+            height: 100px;
+            overflow: hidden;
+
+            .project-image{
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                text-align: center;
+                background-color: white;
+                transition: 0.2s;
+    
+                &:hover{
+                    transform: scale(1.1);
+                }
+                img{
+                    width: 100px;
+                }
+            }
+        }
+
+        
+    }
+
 }

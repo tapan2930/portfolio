@@ -5,23 +5,23 @@ import './mainSection.scss'
 // import AboutMe from './aboutMe'
 import Skills from './skill'
 import Projects from './project'
+import { Link } from 'gatsby'
 
 const MainSection = ()=>{
     return(
         <div className="mainSection">
         <div className="menuListContainer">
             <ul className="menuList">
-                <li><a href="#aboutMe">- Skills</a></li>
-                <li><a href="#aboutMe">- Projects</a></li>
-                <li><a href="#aboutMe">- Educations</a></li>
-                <li><a href="#aboutMe">- Blogs</a></li>
-                <li><a href="#aboutMe">- Photography</a></li>
-                <li><a href="#aboutMe">- Resume Priview</a></li>
+                <li className="sideMenu"><Link href="#aboutMe" activeClassName="sideMenuActive">- Skills</Link></li>
+                <li className="sideMenu"><Link href="#aboutMe">- Projects</Link></li>
+                <li className="sideMenu"><Link href="#aboutMe">- Photography</Link></li>
+                <li className="sideMenu"><Link href="#aboutMe">- Resume Preview</Link></li>
             </ul>
         </div>
         <div className="InfoContainer">
             <Skills />
             <Projects />
+
         </div>
         </div>
     );
