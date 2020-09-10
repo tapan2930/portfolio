@@ -9,43 +9,49 @@
         border:1px solid black;
         width: 30%;
 
-
-        .menuList{
+        .navSide{
             position: -webkit-sticky;
             position: sticky;
-            top: 0;
-            text-align: right;
-            height: 230px;
-            overflow: hidden;
-            .sideMenu{
-                overflow: hidden;
-                height: 25px;
-            }
+            top: 50px;
 
-            li{ 
-                margin-bottom: 10px;
-                list-style-type: none;
+            .menuList{
+
+                text-align: right;
+                height: 230px;
                 overflow: hidden;
 
-
-                a{
-                    text-decoration: none;
-                    color: #2d2f34;
-                    font-weight: 600;
-                    transition: 0.2s;
+                .sideMenu{
                     overflow: hidden;
-
+                    height: 25px;
+                }
+    
+                li{ 
+                    margin-bottom: 10px;
+                    list-style-type: none;
+                    overflow: hidden;
+    
+    
+                    a{
+                        text-decoration: none;
+                        color: #2d2f34;
+                        font-weight: 600;
+                        transition: 0.2s;
+                        overflow: hidden;
+    
+                        
+                    }
                     
                 }
-                
-            }
+    
+                .sideMenuActive{
+                   
+                    font-size: 1.2rem;
+                    color: #4360f2;
+                    
+                }
+        }
 
-            .sideMenuActive{
-               
-                font-size: 1.2rem;
-                color: #4360f2;
-                
-            }
+        
         }
     }
 

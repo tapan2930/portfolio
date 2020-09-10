@@ -8,6 +8,7 @@ import MainSection from '../components/mainSection.jsx'
 // import AboutMe from '../components/aboutMe'
 
 const App = () => {
+
   return (
     <div className="app">
       <Header />
@@ -16,5 +17,9 @@ const App = () => {
     </div>
   )
 }
+
+ 
+
+
 
 export default App
