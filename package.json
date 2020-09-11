@@ -21,6 +21,7 @@
     "@fortawesome/react-fontawesome": "^0.1.11",
     "font-awesome": "^4.7.0",
     "gatsby": "^2.24.54",
+    "gatsby-plugin-dark-mode": "^1.1.2",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-sass": "^2.3.12",
     "node-sass": "^4.14.1",

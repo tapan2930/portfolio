@@ -23,6 +23,7 @@ const Header = () =>{
                     <Link className="navlinks"> Projects </Link>
                     <Link className="navlinks"> Photography</Link>
                     <Link className="navlinks"> Resume </Link>
+                    
             </nav>
       
         </div>

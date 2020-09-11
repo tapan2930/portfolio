@@ -1,0 +1,22 @@
+.card{
+    margin: 20px 20px;
+    display: inline-block;
+    padding: 8px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: 6px 6px 15px #cad3ff,-6px -6px 15px #cad3ff;
+    
+    .card-logo{
+        
+        display: inline-block;
+
+    }
+
+    p{
+        vertical-align: text-top;
+        display: table-cell;
+        line-height: 2px;
+        display: inline;
+    }
+}
