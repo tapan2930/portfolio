@@ -14,11 +14,11 @@
     .yellow{
         background-color: #ffeb3b;
         opacity: 0.6;
-        box-shadow: 2px 2px 3px #1f1f1f55;
+        box-shadow: 3px 3px 25px #b3bff8,-3px -3px 25px #b3bffa;
         transition: 0.2s;
 
         &:hover{
-            color: #333333;
+            box-shadow: 3px 3px 25px #b3bff8,-3px -3px 25px #b3bffa;
             opacity: 1; 
         }
     }
@@ -27,7 +27,7 @@
     .purple{
             background-color: #ff3bb1;
             opacity: 0.6; 
-            box-shadow: 2px 2px 3px #1f1f1f55;
+            box-shadow: 3px 3px 25px #b3bff8,-3px -3px 25px #b3bffa;
             transition: 0.2s;
 
             &:hover{
@@ -38,7 +38,7 @@
     .green{
             background-color: #3bff89;
             opacity: 0.6;
-            box-shadow: 2px 2px 3px #1f1f1f55;
+            box-shadow: 3px 3px 25px #b3bff8,-3px -3px 25px #b3bffa;
             transition: 0.2s;
 
             &:hover{
@@ -51,11 +51,12 @@
         background-color:#2e2f33;
         color: white;
         opacity: 0.6;
-        box-shadow: 2px 2px 3px #1f1f1f55;
+        box-shadow: 3px 3px 25px #b3bff8,-3px -3px 25px #b3bffa;
         transition: 0.2s;
 
         &:hover{
             color: white;
+            box-shadow: 3px 3px 25px #b3bff8,-3px -3px 25px #b3bffa;
             opacity: 1; 
         }
 }
