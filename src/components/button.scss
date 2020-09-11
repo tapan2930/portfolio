@@ -46,4 +46,17 @@
                 opacity: 1; 
             }
     }
+
+    .black{
+        background-color:#2e2f33;
+        color: white;
+        opacity: 0.6;
+        box-shadow: 2px 2px 3px #1f1f1f55;
+        transition: 0.2s;
+
+        &:hover{
+            color: white;
+            opacity: 1; 
+        }
+}
 }

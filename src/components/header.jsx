@@ -7,6 +7,7 @@ import './header.scss'
 
 
 const Header = () =>{
+
     return(
         <div className="navbar">
              <nav className="header">
@@ -14,7 +15,7 @@ const Header = () =>{
                 <img src="./logo.svg" alt="logo" width="60"/>
             </div>
             <div className="nav-toggle" onClick={e => classToggle()}>
-                <FontAwesomeIcon icon={ faBars}/>
+                <FontAwesomeIcon icon={ faBars }/>
             </div>
             </nav>
             <nav className="navLinksMenu">
@@ -31,12 +32,10 @@ const Header = () =>{
 
 function classToggle(){
 
-    
     let navs = document.querySelector('.navbar');
     console.log(navs)
     navs.classList.toggle('active')
     // navs.forEach(nav => nav.classList.toggle('active'));
-
   }
   
 

@@ -1,63 +1,7 @@
 .mainSection{
-    margin: 50px 5%;
-    display: flex;
-
-    
-    .menuListContainer{
-
-        background: white;
-        border:1px solid black;
-        width: 30%;
-
-        .navSide{
-            position: -webkit-sticky;
-            position: sticky;
-            top: 50px;
-
-            .menuList{
-
-                text-align: right;
-                height: 230px;
-                overflow: hidden;
-
-                .sideMenu{
-                    overflow: hidden;
-                    height: 25px;
-                }
-    
-                li{ 
-                    margin-bottom: 10px;
-                    list-style-type: none;
-                    overflow: hidden;
-    
-    
-                    a{
-                        text-decoration: none;
-                        color: #2d2f34;
-                        font-weight: 600;
-                        transition: 0.2s;
-                        overflow: hidden;
-    
-                        
-                    }
-                    
-                }
-    
-                .sideMenuActive{
-                   
-                    font-size: 1.2rem;
-                    color: #4360f2;
-                    
-                }
-        }
-
-        
-        }
-    }
-
     .InfoContainer{
-        margin-left: 5%;
-        width: 65%;
+        width: 70%;
+        margin: 0 auto;
 
         .mainSection-heading{
             color: #4360f2;
@@ -76,10 +20,6 @@
 @media only screen and (max-width: 700px) {
     .mainSection{
         margin: 50px 0px;
-
-        .menuListContainer{
-            display: none
-        }
 
         .InfoContainer{
             width: 100%;

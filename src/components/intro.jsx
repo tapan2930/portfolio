@@ -17,7 +17,6 @@ const Intro = () =>{
                 <MyButton to={"https://github.com/tapan2930"} value = {"Instagram"}  color={"purple"}/>
                 <div className="mouse"></div>
             </div>
-            <div className = "left"></div>
         </div>
     )
 }
