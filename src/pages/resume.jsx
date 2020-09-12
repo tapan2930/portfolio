@@ -20,7 +20,7 @@ function ResumeDisplay() {
           <Header/>
 
           <div className="resume">
-          <MyButton className="cvd" to="TapanResume.pdf" value="Download" color="black" />
+          <MyButton className="cvd" to="./TapanResume.pdf" value="Download" color="black" />
           <>
     <div className="displayPDF">      
       <Document
