@@ -1,0 +1,36 @@
+.experience{
+    background-color: #edf0ff;
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 10px;
+
+    .info-card{
+        margin: 20px 10px 20px 10px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #2d2f343b;
+        h1{
+            color: #4360f2;
+            font-weight: 500;
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+
+        span{
+            font-weight: 400;
+            color: #2e2f34;
+            margin-bottom: 5px;
+        }
+
+        h2{
+            color:#2d2f34;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+
+        .brief{
+            font-weight: 200;
+            color: #2e2f34;
+        }
+    }
+}

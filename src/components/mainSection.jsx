@@ -5,6 +5,7 @@ import './mainSection.scss'
 import AboutMe from './aboutMe'
 import Skills from './skill'
 import Projects from './project'
+import Experience from './experience'
 
 
 // const toScroll = (myref) => {
@@ -18,6 +19,7 @@ const MainSection = ()=>{
             <AboutMe />
             <Skills />
             <Projects />
+            <Experience />
         </div>
         </div>
     );
