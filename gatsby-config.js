@@ -7,7 +7,6 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    `gatsby-plugin-dark-mode`,
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-google-fonts`,
