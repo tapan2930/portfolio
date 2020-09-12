@@ -6,6 +6,7 @@ import MyButton from  './button'
 
 
 const ProjectCard = ({title, img, description, link, web, status})=> {
+    let arr = [web];
     return(
         <div className="project-card">
                 <div className="project-img-container">
@@ -22,7 +23,14 @@ const ProjectCard = ({title, img, description, link, web, status})=> {
                     <p>{description}</p>
                 </div>
                 <div className="project-links">
-                <MyButton value={"Web"} to={link} color={"black"}/>
+                    {
+                      arr.map(a=>{
+                          if(a != undefined){
+                            return  <MyButton value={"Web"} to={web} color={"black"}/>
+                          }                   
+                      })
+                    }
+               
                 <MyButton value={"Code"} to={link} color={"black"}/>
                 </div>
             </div>
