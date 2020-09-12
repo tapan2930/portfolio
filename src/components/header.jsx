@@ -6,9 +6,20 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 import './header.scss'
 
 
-const Header = () =>{
-
+const Header = ({refs}) =>{
+    const scrollTo = ele => {
+        ele.scrollIntoView({
+          behavior: "smooth",
+          block:"start"
+        });
+      };
+    
+      const onClickHandler = (ref)=>{
+          classToggle();
+          scrollTo(ref);
+      }
     return(
+
         <div className="navbar">
              <nav className="header">
             <div className="logo">
@@ -18,11 +29,26 @@ const Header = () =>{
                 <FontAwesomeIcon icon={ faBars }/>
             </div>
             </nav>
+
+
             <nav className="navLinksMenu">
-                    <Link className="navlinks"> Skills </Link>
-                    <Link className="navlinks"> Projects </Link>
-                    <Link className="navlinks"> Photography</Link>
-                    <Link className="navlinks"> Resume </Link>
+                    <a onClick={() => {onClickHandler(refs.refAbout.current)}} className="navlinks"> About </a>
+
+                    <a onClick={() => {
+                        onClickHandler(refs.refSkills.current)
+                    }}
+                     className="navlinks"> Skills </a>
+
+                    <a onClick={() => {
+                        onClickHandler(refs.refProjects.current)
+                    }} className="navlinks"> Projects </a>
+
+                    <a onClick={() => {
+                        onClickHandler(refs.refExperience.current)
+                    }} className="navlinks"> Experience</a>
+                    
+                    <Link className="navlinks page-btn"> Resume </Link>
+                    <Link className="navlinks page-btn"> Resources </Link>
                     
             </nav>
       
@@ -34,7 +60,6 @@ const Header = () =>{
 function classToggle(){
 
     let navs = document.querySelector('.navbar');
-    console.log(navs)
     navs.classList.toggle('active')
     // navs.forEach(nav => nav.classList.toggle('active'));
   }

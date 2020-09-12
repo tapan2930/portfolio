@@ -1,4 +1,5 @@
-import React from "react"
+import React, { useRef }  from 'react'
+
 
 import '../styles/index.style.scss'
 
@@ -9,12 +10,18 @@ import MainSection from '../components/mainSection.jsx'
 
 
 const App = () => {
+  const refs = {
+    refAbout : useRef(),
+    refSkills : useRef(),
+    refProjects : useRef(),
+    refExperience : useRef()
+    }
 
   return (
     <div className="app">
-      <Header />
+      <Header refs = {refs} />
       <Intro />
-      <MainSection />
+      <MainSection refs={refs} />
     </div>
   )
 }

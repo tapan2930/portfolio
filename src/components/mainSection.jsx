@@ -8,18 +8,15 @@ import Projects from './project'
 import Experience from './experience'
 
 
-// const toScroll = (myref) => {
-//     window.scrollTo({ behavior: 'smooth', top: myref.current.offsetTop })
-// }
-
-const MainSection = ()=>{
+const MainSection = ({refs})=>{
+    
     return(
         <div className="mainSection">
         <div className="InfoContainer">
-            <AboutMe />
-            <Skills />
-            <Projects />
-            <Experience />
+            <div ref={refs.refAbout} id="About"><AboutMe /></div>
+            <div ref={refs.refSkills} id="Skills"><Skills /></div>
+            <div ref={refs.refProjects} id="Project"><Projects /></div>
+            <div ref={refs.refExperience} id="Experience"><Experience /></div>
         </div>
         </div>
     );
