@@ -1,8 +1,11 @@
 import React from 'react'
+import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
+import { faInstagram, faLinkedinIn, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 import './aboutMe.scss'
 
 import MyButton from './button'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const AboutMe = () =>{
     return(
@@ -18,10 +21,11 @@ const AboutMe = () =>{
                 <table>
                     <tr>
                         <td className="answer">
-                            <MyButton value={"Github"} color={"yellow"} />
-                            <MyButton value={"Linkdin"} color={"purple"} />
-                            <MyButton value={"Twitter"} color={"green"} />
-                            <MyButton value={"Email"} color={"black"} />
+                            <MyButton to={"https://github.com/tapan2930"} value = {"Github"}  color={"#24292d"} icon={faGithub}/>
+                            <MyButton to={"https://www.linkedin.com/in/tapan-patel-7567511a5/"} value = {"Linkdin"}  color={"#0077b4"} icon={faLinkedinIn}/>
+                            <MyButton to={"https://www.instagram.com/tapan__p/"} value = {"Instagram"}  color={"#cf0076"} icon={faInstagram}/>
+                            <MyButton to={"https://twitter.com/tapan2930"} value={"Twitter"} color={"#1da1f3"} icon={faTwitter} />
+                            <MyButton to={"mailto:tapan2930@gmail.com"} value={"Email"} color={"#24292d"} icon={faEnvelopeOpen} />
                         </td>
                     </tr>
                 </table>

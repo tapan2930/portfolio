@@ -18,16 +18,18 @@
         margin: auto;
     
         .greetings{
-            color:#4262f2;
-            font-weight: 900;
-            font-size: 1.5rem;
+            color: #4262f2;
+            font-weight: 700;
+            font-size: 2rem;
             margin-bottom: 40px;
+            letter-spacing: 4px;
         }
     
         .headName{
-            font-size:3.5rem;
+            font-size: 4rem;
             font-weight: 900;
-            margin-bottom: 40px;
+            margin: 20px;
+            letter-spacing: 6px;
         }
     
         .tagLine{
@@ -35,6 +37,7 @@
             font-weight: 300;
             color: #4262f2;
             margin-bottom: 40px;
+            line-height: 45px;
 
             .highlight{
                 color: white;
