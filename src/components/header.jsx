@@ -47,7 +47,7 @@ const Header = ({refs}) =>{
                         onClickHandler(refs.refExperience.current)
                     }} className="navlinks"> Experience</a>
                     
-                    <Link className="navlinks page-btn"> Resume </Link>
+                    <Link className="navlinks page-btn" to="/resume"> Resume </Link>
                     <Link className="navlinks page-btn"> Resources </Link>
                     
             </nav>
