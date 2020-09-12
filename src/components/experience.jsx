@@ -13,17 +13,17 @@ const Experience = ()=>{
                <h2>Freelance Web Developer</h2><span> | June, 2019</span>
                <div className="brief">
                    <p>
-                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, suscipit temporibus quia quisquam modi quos molestiae esse. Soluta quisquam nobis ut placeat saepe animi, corrupti fugit eveniet eius, autem recusandae.
+                   Developed frontend Website. Managed routing, SEO optimaztion and other features. Designed mobile first Website.
                    </p>
                </div>
            </div>
 
            <div className="info-card">
-               <h1>NetAmaze Network</h1>
-               <h2>Freelance Web Developer</h2><span> | June, 2019</span>
+               <h1>Shreeji Engineers</h1>
+               <h2>Freelance Software Developer</h2><span> | June, 2019</span>
                <div className="brief">
                    <p>
-                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, suscipit temporibus quia quisquam modi quos molestiae esse. Soluta quisquam nobis ut placeat saepe animi, corrupti fugit eveniet eius, autem recusandae.
+                   Developed Custom Invoice Genearating Application in PHP. Implemented PDF generation, Storing Clients and product to Database.
                    </p>
                </div>
            </div>
