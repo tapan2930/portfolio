@@ -5,8 +5,6 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 import './header.scss'
 
-import MyButton from './button.jsx'
-
 const Header = () =>{
 
     const classToggle = ()=> {
