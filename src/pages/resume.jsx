@@ -4,7 +4,6 @@ import { pdfjs } from "react-pdf";
 import resume from '../TapanResume.pdf'
 
 import Header from '../components/header'
-import { Link } from "gatsby";
 import MyButton from "../components/button";
 
 

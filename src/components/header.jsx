@@ -1,23 +1,13 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link  } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import './header.scss'
 
-
-const Header = ({refs}) =>{
-    const scrollTo = ele => {
-        ele.scrollIntoView({
-          behavior: "smooth",
-          block:"start"
-        });
-      };
+const Header = () =>{
     
-      const onClickHandler = (ref)=>{
-          classToggle();
-          scrollTo(ref);
-      }
     return(
 
         <div className="navbar">
@@ -32,21 +22,10 @@ const Header = ({refs}) =>{
 
 
             <nav className="navLinksMenu">
-                    <a onClick={() => {onClickHandler(refs.refAbout.current)}} className="navlinks"> About </a>
-
-                    <a onClick={() => {
-                        onClickHandler(refs.refSkills.current)
-                    }}
-                     className="navlinks"> Skills </a>
-
-                    <a onClick={() => {
-                        onClickHandler(refs.refProjects.current)
-                    }} className="navlinks"> Projects </a>
-
-                    <a onClick={() => {
-                        onClickHandler(refs.refExperience.current)
-                    }} className="navlinks"> Experience</a>
-                    
+                    <AnchorLink onClick={()=> {classToggle()}} stripHash={true} className="navlinks"  title="About" to="/#About" />
+                    <AnchorLink onClick={()=> {classToggle()}} stripHash={true} className="navlinks"  title="Skills" to="/#Skills" />
+                    <AnchorLink onClick={()=> {classToggle()}} stripHash={true} className="navlinks"  title="Projects" to="/#Project" />
+                    <AnchorLink onClick={()=> {classToggle()}} stripHash={true} className="navlinks"  title="Experience" to="/#Experience" />
                     <Link className="navlinks page-btn" to="/resume"> Resume </Link>
                     <Link className="navlinks page-btn"> Resources </Link>
                     

@@ -13,7 +13,7 @@ const AboutMe = () =>{
             </div>
             <div className="about-Info">
                 <div className="brief-about">
-                   <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam sapiente, error ipsam asperiores nam modi quas, esse exercitationem laboriosam tempora quidem culpa fugiat temporibus ipsum fuga inventore architecto ad iste.</p>
+                   <p>In a fullstack developer, living in India. I like to keep things simple and scalable. I always admire great user interface and try to make one. Connect with me on: </p>
                 </div>
                 <table>
                     <tr>

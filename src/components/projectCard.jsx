@@ -25,9 +25,10 @@ const ProjectCard = ({title, img, description, link, web, status})=> {
                 <div className="project-links">
                     {
                       arr.map(a=>{
-                          if(a != undefined){
+                          if(a !== undefined){
                             return  <MyButton value={"Web"} to={web} color={"black"}/>
-                          }                   
+                          }  
+                          return null                 
                       })
                     }
                

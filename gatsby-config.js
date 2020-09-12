@@ -15,6 +15,12 @@ module.exports = {
           `Rubik\:300,400,400i,700,800,900` // you can also specify font weights and styles
         ],
         display: 'swap'
+    },
+  },
+  {
+    resolve: "gatsby-plugin-anchor-links",
+    options: {
+      offset: -100
     }
   }
   ],

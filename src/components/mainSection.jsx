@@ -8,15 +8,15 @@ import Projects from './project'
 import Experience from './experience'
 
 
-const MainSection = ({refs})=>{
+const MainSection = ()=>{
     
     return(
         <div className="mainSection">
         <div className="InfoContainer">
-            <div ref={refs.refAbout} id="About"><AboutMe /></div>
-            <div ref={refs.refSkills} id="Skills"><Skills /></div>
-            <div ref={refs.refProjects} id="Project"><Projects /></div>
-            <div ref={refs.refExperience} id="Experience"><Experience /></div>
+            <div id="About"><AboutMe /></div>
+            <div id="Skills"><Skills /></div>
+            <div id="Project"><Projects /></div>
+            <div id="Experience"><Experience /></div>
         </div>
         </div>
     );
