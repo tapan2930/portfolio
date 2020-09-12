@@ -1,7 +1,6 @@
 import React from 'react'
 
 import './experience.scss'
-import ProjectCard from './projectCard'
 
 
 const Experience = ()=>{

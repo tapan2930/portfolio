@@ -5,7 +5,6 @@ import { faInstagram, faLinkedinIn, faGithub, faTwitter } from '@fortawesome/fre
 import './aboutMe.scss'
 
 import MyButton from './button'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const AboutMe = () =>{
     return(
