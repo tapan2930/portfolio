@@ -13,7 +13,7 @@ const Header = () =>{
         <div className="navbar">
              <nav className="header">
             <div className="logo">
-                <img src="./logo.svg" alt="logo" width="60"/>
+                <Link to="/" ><img src="./logo.svg" alt="logo" width="60"/></Link>
             </div>
             <div className="nav-toggle" onClick={e => classToggle()}>
                 <FontAwesomeIcon icon={ faBars }/>
