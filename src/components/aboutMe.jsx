@@ -1,5 +1,5 @@
 import React from 'react'
-import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
+// import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
 import { faInstagram, faLinkedinIn, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 import './aboutMe.scss'
