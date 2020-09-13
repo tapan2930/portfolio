@@ -11,8 +11,7 @@ const MyButton = ({to, color, value, icon}) =>{
             <div className={`linkBtn`} style={{backgroundColor:`${color.concat("50")}` ,  border:`1.5px solid ${color}`}} >
                 <FontAwesomeIcon style={{color:`${color}`}} icon={icon} />
                 <Link to = {to} className="link" style={{color:`${color}`, fontWeight:"400", fontSize:"1.2rem"}} target="_blank" >{value}</Link>
-            </div>
-           
+            </div>  
         </div>
     )
 }

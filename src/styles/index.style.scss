@@ -10,19 +10,14 @@
     position: relative;
     display: flex;
     justify-content: center;
-    padding: 76px 0;
     flex-direction: column;
     text-align: center;
     overflow-x: scroll;
 
     .displayPDF{
-        margin-top: 20px;
         align-self: center;
     }
 
-    .cvd{
-        display: inline-block;
-    }
 }
 
 ::-webkit-scrollbar {
