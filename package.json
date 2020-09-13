@@ -2,7 +2,7 @@
   "name": "tapan-portfolio",
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
-  "version": "1.8",
+  "version": "1.8.0",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
