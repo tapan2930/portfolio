@@ -19,7 +19,7 @@ function ResumeDisplay() {
           <Header/>
 
           <div className="resume">
-          <MyButton className="cvd" to={resume} value="Download" color="black" />
+          <MyButton className="cvd" to={resume} value="Download" color="#000000" />
           <>
     <div className="displayPDF">      
       <Document
