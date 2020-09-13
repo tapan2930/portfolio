@@ -22,7 +22,6 @@ const AboutMe = () =>{
                             <MyButton to={"https://www.linkedin.com/in/tapan-patel-7567511a5/"} value = {"Linkdin"}  color={"#0077b4"} icon={faLinkedinIn}/>
                             <MyButton to={"https://www.instagram.com/tapan__p/"} value = {"Instagram"}  color={"#cf0076"} icon={faInstagram}/>
                             <MyButton to={"https://twitter.com/tapan2930"} value={"Twitter"} color={"#1da1f3"} icon={faTwitter} />
-                            <MyButton to={"mailto:tapan2930@gmail.com"} value={"Email"} color={"#24292d"} icon={faEnvelopeOpen} />
                             </div>
             </div>
         </div>
