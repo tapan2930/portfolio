@@ -18,7 +18,7 @@ function ResumeDisplay() {
   return (
       <div>
           <Header/>
-          <div style={{paddingTop: "90px",textAlign:"center"}}> <MyButton to={resume} value={"Download"} color={"#000000"} icon={faDownload}/></div>
+          <div style={{paddingTop: "90px",textAlign:"center"}}> <MyButton to="/TapanResume.pdf" value={"Download"} color={"#000000"} icon={faDownload}/></div>
           <div className="resume">
          
           <>

@@ -19,7 +19,19 @@
             display: flex;
             justify-content: space-between;
             flex-direction: column;
-    
+            
+            a{
+                color: #2e2f33;
+                text-decoration: none;
+                
+                &:hover{
+                    color: #1d1e20;
+                }
+
+                &:active{
+                    color: #1d1e20;
+                }
+            }
             .project-img-container{
                 position: relative;
                 height: 160px;
@@ -54,6 +66,8 @@
             }
     
             .project-description{
+                letter-spacing: 1.5px;
+                line-height: 23px;
                 margin: 0px 10px 0px 10px;
                 color: #2e2f33;
                 font-size: 1rem;
@@ -82,6 +96,10 @@
     
             .ongoing{
                 background-color: #ff3b3ba1;
+            }
+
+            &:hover{
+                transform: translateY(-10px);
             }
         }
     }
