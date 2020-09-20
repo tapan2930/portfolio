@@ -2,25 +2,28 @@
     display: inline-block;
     margin-top:25px;
 
+    .link{
+        margin-left: 5px;
+        text-decoration: none;
+       
+        transition: 0.2s;
+    
+
+    &:hover{
+        box-shadow: 3px 3px 25px #d5dbfc,-3px -3px 25px #c0cafd;
+    }
 
     .linkBtn{
+        margin-right: 10px;
         padding: 4px;
         color: black;
-        margin-right: 10px;
         border-radius: 3px;
         box-shadow: 3px 3px 25px #c2cbfc,-3px -3px 25px #c9d2fc;
         transition: 0.2s;
-
-        .link{
-            margin-left: 5px;
-            text-decoration: none;
-        }
-
-        &:hover{
-            box-shadow: 3px 3px 25px #d5dbfc,-3px -3px 25px #c0cafd;
-        }
-
     }
+    }
+
+
 
 //     .yellow{
 //         background-color: #ffeb3b70;

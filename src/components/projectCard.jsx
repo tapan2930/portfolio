@@ -11,13 +11,13 @@ const ProjectCard = ({title, img, description, link, web, status})=> {
         <div className="project-card">
                 <div className="project-img-container">
     <div className={`bagde ${status.toLowerCase()}`}>{status}</div>
-    <a href={link} target="_blank"><div className="project-image">
+    <a href={link} target="_blank" rel="noreferrer"><div className="project-image">
                     <img className="img" src={img} alt={title}/>
                     </div></a>
                 </div>
                 
                 <div className="project-title">
-                    <a href={link} target="_blank"><h2>{title}</h2></a>
+                    <a href={link} target="_blank" rel="noreferrer"><h2>{title}</h2></a>
                 </div>
                 <div className="project-description">
                     <p>{description}</p>
